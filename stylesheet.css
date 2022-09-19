@@ -1,0 +1,278 @@
+/*CSS Stylesheet for ISEG assessment website by Jayden Houghton Year 13 2021*/
+
+/*---- COLOURS ----*/
+/* #131315ff - grey */
+/* #FFD700 - gold hex */
+
+/* ---- CLASS ELEMENTS ---- */
+.divider{
+	display:block;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+
+.form_header{
+	text-align:center;
+	margin:auto; 
+	background-color:#131315ff;
+	padding:20px 40px 40px 40px;	
+}
+
+.body_block{
+	text-align:center;
+	padding:30px;
+	margin:30px;
+	margin:auto; 
+	background-color:#131315ff;
+	padding:20px 40px 40px 40px;	
+}
+
+.form_element{
+	text-align:center;
+	padding:4px;
+}
+
+.textfield{
+	height:22px;
+}
+
+.required_text{
+	margin-top:-10px;
+	font-size:12px;
+}
+.form_names{
+	text-align:left;
+	margin-bottom:2px;
+	padding-left:162px;
+	font-size:14px;
+}
+
+.form_button{
+	padding:10px 20px;
+	background-color:black;
+	border:2px solid #FFD700;
+	width:190px;
+	margin:auto;
+	color:white;
+	font-size:30px;
+	font-family: Arial Narrow;
+	font-weight:bold;
+	margin-top:14px;
+}
+
+.body_text{
+	margin-bottom:20px;
+	background-color:#131315ff;
+	padding-top:5px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:18px;
+}
+
+.body_ul{
+	margin:0px;
+	padding:0px;
+}
+.body_ol{
+	margin:0px;
+	padding:5px;
+}
+.body_li{	
+	display:list-item;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:left;
+	margin-left:20px;
+	padding-bottom:2px;
+}
+
+/* ---- ID ELEMENTS ---- */
+#nav_image{
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#registration_form{
+	display:block;
+	padding-top:10px;
+}
+
+#form_button2{
+	height:34px;
+	width:150px;
+}
+
+#intro{
+	grid-area:intro;
+}
+#intro_image{
+	margin-top:-326px;
+	margin-right:20px;
+}
+#intro_text{
+	margin-top:170px;
+	margin-left:-50px;
+}
+#join_box{
+	display:block;
+	background-color:#131315ff;
+	font-size:30px;
+	font-family: Arial Narrow;
+	margin-top:169px;
+	padding:10px;
+	margin-bottom:40px;
+}
+
+#text_outline{
+	display:block;
+	border:2px solid #FFD700;
+	width:200px;
+	margin:auto;
+}
+
+#gentlemen_image{
+	display:block;
+	margin-left:auto; 
+	margin-right:auto;
+	border-width:5px; 
+	border-color:red;
+}
+
+
+/* ---- NAV AND LINKS ---- */
+a:link{
+	color:white;
+	font-family:arial;
+	text-decoration:none;
+	font-size:22px;
+	
+}
+a:visited{
+	color:white;
+}
+a:active{
+	color:#FFD700;
+}
+
+ul{
+	margin:0px;
+	padding:5px;
+	text-align:right;
+	margin-top:-95px;
+}
+
+li{
+	display:inline;
+	padding-left:30px;
+	padding-right:10px;
+}
+
+/* ---- BODY ELEMENTS ---- */
+header{
+	display:block;
+	color:white;
+	background-color:#131315ff;
+	padding:10px;
+	font-size:40px;
+	font-family:times new roman;
+	text-align:center;
+}
+
+.ws1{
+	grid-area:ws1;
+}
+.ws2{
+	grid-area:ws2;
+}
+
+article{
+	grid-area:article;
+	font-family:verdana;
+	margin-top:10px;
+	color:white;
+	background-color:black;
+	text-align:justify;
+}
+
+footer{
+	grid-area:footer;
+	background-color:#131315ff;
+	color: white;
+	text-align:center;
+	height: 40px;
+	padding-top:1px;
+	margin-top:50px;
+	margin-bottom:-10px;
+	margin:auto;
+	font-size:12px;
+	bottom:-14px;
+	width:100%;
+}
+
+/* ---- OTHER ELEMENTS ---- */
+h1{
+	font-size:50px;
+	font-family:arial narrow;
+	text-align:left;
+	margin-left:100px;
+	margin-top:10px;
+}
+h2{
+	font-size:50px;
+	font-family:arial narrow;
+	text-align:left;
+	margin-left:100px;
+	margin-top:10px;
+	color:white;
+}
+h3{
+	color:#FFD700;
+	font-size:40px;
+	font-family: Arial Narrow;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* ---- SLIDESHOW ---- */
+.mySlides{
+	display:none; /* hide all images */
+}
+
+#slideshow-container{
+	display:block;
+}
+
+.prev, .next{
+	display:inline;
+	cursor:pointer; /* show curser as clickable */
+    font-weight:900;
+    font-size:140px;
+    border-radius:0 3px 3px 0;
+	padding:0px;
+	user-select:none; /* otherwise arrow buttons are selected and have blue highlight */
+}
+
+.text{
+    color:#f2f2f2;
+    font-size:15px;
+    padding:8px 12px;
+    bottom:8px;
+    text-align:center;
+}
+
+.dot{
+    cursor:pointer;
+    height:15px;
+    width:15px;
+    margin:0px 2px;
+    background-color:#bbb;
+    border-radius:50%;
+    display:inline-block;
+}
+
+.active, .dot:hover{
+	background-color:#FFD700;
+}
